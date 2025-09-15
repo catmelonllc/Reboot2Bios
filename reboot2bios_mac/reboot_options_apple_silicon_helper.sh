@@ -1,0 +1,16 @@
+#!/bin/bash
+echo "######################################################################"
+echo "#  IMPORTANT: You have an Apple Silicon Mac (M1, M2, M3, etc.)       #"
+echo "#                                                                    #"
+echo "#  A script CANNOT automatically reboot into Startup Options.        #"
+echo "#  You must do it manually. This script will NOT reboot your Mac.    #"
+echo "######################################################################"
+echo ""
+echo "INSTRUCTIONS:"
+echo "1. Go to the Apple Menu in the top-left corner and click 'Shut Down'."
+echo "2. Wait for your Mac to turn off completely."
+echo "3. PRESS and HOLD the power button (Touch ID button)."
+echo "4. Keep holding it until you see the text 'Loading startup options'."
+echo "5. Release the power button. You will then see the Startup Options screen."
+echo ""
+exit 0
